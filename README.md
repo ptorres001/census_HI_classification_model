@@ -45,9 +45,9 @@ Before we dive deeper into the questions, here are some information on our data.
 
 ## Descriptive Statistics
 Now we will briefly discuss what our dataset contains. 
-1. MPAA: Most of movies in our data are PG-13 and R-rated.  
+1. HICOV: The target variable has a large class imbalance--with those with insurance being the majority by a large margin.  
 	
-![Distribution of MPAA](PNG/MPAA_distribution.png)
+![Insured vs Uninsured](PNG/ins_vs_not.png)
 
 2. Studios 
 
