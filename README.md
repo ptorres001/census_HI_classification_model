@@ -1,4 +1,4 @@
-# DS_HI_EDA 
+# New York State Health Insurance Model
 ### Mod 3 Project by Paul Torres and Albert Um
 
 This repository contains data collection, cleaning and analyses of census survey information for 2018. We were singularly focused on New York State. We downloaded and curated data from the Census Bureau -- and included housing and persons records.
