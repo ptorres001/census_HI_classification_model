@@ -19,24 +19,21 @@ For this project, we aim to analyze the sampled New York State population in ord
 
 
 # Business Case
-1. Marking a Target
+1. Marking a Target/Identifying Stakeholders
 	- To whom does it matter if we can identify who does or does not have health insurance?
 		1. **Health Insurance Companies**:  
 		Where do they market premium plans?
 		2. **HealthCare.Gov**:  
-		Be able to target communities to sign up for ObamaCare
+		What communities should they target to sign up for ObamaCare?
 		
-2. Understanding the current market 
-	- What types of movies have yielded highest revenue? 
-	- Is there any difference in domestic vs. global market in types of movie people consume? 
-	- Is there any change in trend? 
-	- What is the reasonable investment to maximize the gain?
-	- What other features may influence the sales?
+2. Understanding how different states may offer health insurance at different levels 
+	- Do some states offer medicare at different levels? 
+	- Are the factors that affect whether an individual has healthcare change from state to state? 
+	- How many vairables are important in determining whether someone has health insurance? 
 	
-3. Understanding the virality of movies (for building brand)
-	- What type of movies or team often get nominated for awards? 
-	- How are the popularity measures relate to the profit? 
-	- Are there any topical pattern in successful movies? 
+3. Understanding the viability in different models
+	- Is it more productive to build a predictive or interpretable model? 
+	- Which model would be the most helpful for a stakeholder? 
 
 
 # Data
