@@ -18,13 +18,13 @@ For this project, we aim to analyze the sampled New York State population in ord
 - README.md
 
 
-# Approach / Questions
-1. Understanding the goal
-	- What are the main considerations in developing a new movie studio?
-		1. **Establishing a sub-brand that matches the existing brand**:  
-		> "Microsoft doesn't just make movies. It makes good movies."
-		2. **Establishing a long term plan**:  
-		Developing a sustainable plan with maximized profit
+# Business Case
+1. Marking a Target
+	- To whom does it matter if we can identify who does or does not have health insurance?
+		1. **Health Insurance Companies**:  
+		Where do they market premium plans?
+		2. **HealthCare.Gov**:  
+		Be able to target communities to sign up for ObamaCare
 		
 2. Understanding the current market 
 	- What types of movies have yielded highest revenue? 
@@ -41,9 +41,10 @@ For this project, we aim to analyze the sampled New York State population in ord
 
 # Data
 Before we dive deeper into the questions, here are some information on our data. 
-1. Unless noted otherwise, our data included 1193 movies.
-2. Data used in this repository are not all API sourced. Please keep that in mind if you hope to replicate these analyses. 
-3. All movies without production budget, domestic and worldwide gross revenue information were excluded. 
+1. The data is focused on New York State in 2018.
+2. The data here was compiled and then uploaded to Kaggle.
+    - You can find the dataset [here](https://www.kaggle.com/dataset/c2718fecee72695dff45f4dee01de58deeb17a54a6f334075ac983144be49f63). 
+3. All other features were engineered. 
 
 ## Descriptive Statistics
 Now we will briefly discuss what our dataset contains. 
