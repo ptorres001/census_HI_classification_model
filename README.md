@@ -57,18 +57,17 @@ Now we will briefly discuss what our dataset contains.
 ![Age Distribution by Percentage](PNG/nys_age_dist_percent.png)
 
 4. There were several subsets of the population that we wanted to look at. 
-    - The first being Military Status.
+The first being Military Status.
     
 ![Military Status](PNG/nys_mil_hi.png)
 
-    - The second being level of English fluency the person is.
+The second being level of English fluency the person is.
 
 ![English Speakers](PNG/nys_eng_hi.png)
 
+The third being type of personal relationship.
 
-*Original dataset had animation as a sub-genre, but we considered animation as a separate genre. This is because most animated films are PG or G-rated and this was a key divider of other genres. For example, animated action and non-animated action films tend to show highly different patterns in terms of audience, revenue, production budget, etc.*
-
-![Distribution of Genre](PNG/Genre_Distribution.png)
+![Marriage vs Single](PNG/nys_marriage_dist.png)
 
 
 # Process
