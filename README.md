@@ -50,15 +50,18 @@ Now we will briefly discuss what our dataset contains.
 	
 ![Insured vs Uninsured](PNG/ins_vs_not.png)
 
-2. There were several subsets of the population that we wanted to look at. The first being Military Status.
+2. Distribution of Age Percentage Over the Target Variable.
+![Age Distribution by Percentage](PNG/nys_age_dist_percent.png)
+
+3. There were several subsets of the population that we wanted to look at. The first being Military Status.
 
 ![Military Status](PNG/nys_mil_hi.png)
 
-3. The second being whether they were fluent English Language Speakers.
+4. The second being whether they were fluent English Language Speakers.
 
 ![English Speakers](PNG/nys_eng_hi.png)
 
-4. Budget Distribution
+5. Budget Distribution
 
 ![Distribution of Budget](PNG/Budget_Distribution.png)
 
