@@ -41,6 +41,7 @@ Before we dive deeper into the questions, here are some information on our data.
 1. The data is focused on New York State in 2018.
 2. The data here was compiled and then uploaded to Kaggle.
     - You can find the dataset [here](https://www.kaggle.com/dataset/c2718fecee72695dff45f4dee01de58deeb17a54a6f334075ac983144be49f63). 
+    - The data dictionary can be found [here](https://www2.census.gov/programs-surveys/acs/tech_docs/pums/data_dict/PUMS_Data_Dictionary_2018.pdf?#).
 3. All other features were engineered. 
 
 ## Descriptive Statistics
@@ -49,11 +50,13 @@ Now we will briefly discuss what our dataset contains.
 	
 ![Insured vs Uninsured](PNG/ins_vs_not.png)
 
-2. Studios 
+2. There were several subsets of the population that we wanted to look at. The first being Military Status.
 
-![Distribution of Studio](PNG/Studio_Distribution.png)
+![Military Status](PNG/nys_mil_hi.png)
 
-3. Original Language: Original language of 99% of the films in our dataset is English.
+3. The second being whether they were fluent English Language Speakers.
+
+![English Speakers](PNG/nys_eng_hi.png)
 
 4. Budget Distribution
 
