@@ -50,30 +50,21 @@ Now we will briefly discuss what our dataset contains.
 	
 ![Insured vs Uninsured](PNG/ins_vs_not.png)
 
-2. Distribution of Age Percentage Over the Target Variable.
+2. Distribution of Age Count Over Target Variable.
+![Age Distribution by Count](PNG/nys_age_dist_count.png)
+
+3. Distribution of Age Percentage Over the Target Variable.
 ![Age Distribution by Percentage](PNG/nys_age_dist_percent.png)
 
-3. There were several subsets of the population that we wanted to look at. The first being Military Status.
-
+4. There were several subsets of the population that we wanted to look at. 
+    - The first being Military Status.
+    
 ![Military Status](PNG/nys_mil_hi.png)
 
-4. The second being whether they were fluent English Language Speakers.
+    - The second being level of English fluency the person is.
 
 ![English Speakers](PNG/nys_eng_hi.png)
 
-5. Budget Distribution
-
-![Distribution of Budget](PNG/Budget_Distribution.png)
-
-5. Gross Revenue Distribution: Most domestic movies don't yield gross revenue above $200M. But worldwide movies do yield higher revenue. Since it's assuming to be cumulative measure, this is not surprising.  
-
-![Distribution of Gross Revenue](PNG/Gross_Revenue_Distribution.png)
-
-6. Runtime Distribution: Most movies around an hour to 2.5 hrs.
-
-![Distribution of Runtime](PNG/Runtime_Distribution.png)
-
-7. Genre Distribution
 
 *Original dataset had animation as a sub-genre, but we considered animation as a separate genre. This is because most animated films are PG or G-rated and this was a key divider of other genres. For example, animated action and non-animated action films tend to show highly different patterns in terms of audience, revenue, production budget, etc.*
 
