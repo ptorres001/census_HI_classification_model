@@ -326,9 +326,6 @@ bbb .N/A (not a worker; worker who worked at home)
 010 .3:30 a.m. to 3:39 a.m.
 …….
 
-PWGTP 
-Person's weight 
-1..9999 .Integer weight of person
 
 CITWP 
 Year of naturalization write-in 
