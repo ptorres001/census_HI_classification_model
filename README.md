@@ -12,7 +12,7 @@ For this project, we aim to analyze the sampled New York State population in ord
 - PNG -- contains images created during EDA and those linked in README
 - Data_Cleaning.ipynb -- contains all processes that went into pipeline cleaning and statistical tests
 - Model_Evaluation.ipynb -- contains code that ran all of the models for NYS data
-- Alabama_Test.ipynb -- contains case where NYS model was fitted onto Alabama data
+- Alabama_Test.ipynb -- contains case where NYS model predicts onto Alabama data
 - Final_Columns.txt -- contains a working dictionary for the columns that ended up in the final dataframe
 - README.md
 
