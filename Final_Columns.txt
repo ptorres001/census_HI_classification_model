@@ -1,0 +1,737 @@
+Data Columns:
+
+AGEP 
+Age 
+0 .Under 1 year 
+1..99 .1 to 99 years (Top-coded)
+
+CIT 
+Citizenship status 
+1 .Born in the U.S. 
+2 .Born in Puerto Rico, Guam, the U.S. Virgin Islands, or the .Northern Marianas 3 .Born abroad of American parent(s) 
+4 .U.S. citizen by naturalization
+5 .Not a citizen of the U.S. 
+
+DEYE 
+Vision difficulty 
+1 .Yes 
+2 .No
+
+MAR 
+Marital status 
+1 .Married 
+2 .Widowed 
+3 .Divorced 
+4 .Separated 
+5 .Never married or under 15 years old 
+
+SEX 
+Sex 
+1 .Male 
+2 .Female
+
+ANC 
+Ancestry recode 
+1 .Single 
+2 .Multiple 
+3 .Unclassified 
+4 .Not reported 
+8 .Suppressed for data year 2018 for select PUMAs 
+
+NATIVITY 
+Nativity 
+1 .Native 
+2 .Foreign born
+
+RACAIAN 
+American Indian and Alaska Native recode (American Indian and Alaska Native alone or in combination with one or more other races) 
+0 .No 
+1 .Yes 
+
+RACASN 
+Asian recode (Asian alone or in combination with one or more other races) 
+0 .No 
+1 .Yes
+
+RACBLK 
+Black or African American recode (Black alone or in combination with one or more other races) 
+0 .No
+1 .Yes
+
+RACNH 
+Native Hawaiian recode (Native Hawaiian alone or in combination with one or more other races)
+0 .No 
+1 .Yes 
+
+RACNUM 
+Number of major race groups represented 
+1..6 .Race groups
+
+RACPI 
+Other Pacific Islander recode (Other Pacific Islander alone or in combination with one or more other races) 
+0 .No 
+1 .Yes 
+
+RACSOR 
+Some other race recode (Some other race alone or in combination with one or more other races) 
+0 .No 
+1 .Yes
+
+DOUT 
+Independent living difficulty 
+b .N/A (Less than 15 years old) 
+1 .Yes 
+2 .No 
+
+FER 
+Gave birth to child within the past 12 months b .N/A (less than 15 years/greater than 50 years/ male) 
+1 .Yes 
+2 .No 
+
+INTP 
+Interest, dividends, and net rental income past 12 months (signed, use ADJINC to adjust to constant dollars) 
+bbbbbb .N/A (less than 15 years old) 
+0 .None 
+-10000..-4 .Loss of $4 to $10000 (Rounded and bottom-coded) 
+4..999999 .$4 to $999999 (Rounded and top-coded)
+
+LANX 
+Language other than English spoken at home b .N/A (less than 5 years old) 
+1 .Yes, speaks another language 
+2 .No, speaks only English
+
+MARHW 
+Widowed in the past 12 months b .N/A (age less than 15 years; never married) 
+1 .Yes 
+2 .No
+
+MIL 
+Military service 
+b .N/A (less than 17 years old) 
+1 .Now on active duty 
+2 .On active duty in the past, but not now 
+3 .Only on active duty for training in Reserves/National Guard 
+4 .Never served in the military
+
+MLPA 
+Served September 2001 or later 
+b .N/A (less than 17 years old/no active duty) 
+0 .Did not serve this period 
+1 .Served this period
+
+OIP 
+All other income past 12 months (use ADJINC to adjust to constant dollars) 
+bbbbbb .N/A (less than 15 years old) 
+0 .None 
+4..999999 .$4 to $999999 (Rounded and top-coded)
+
+RETP 
+Retirement income past 12 months (use ADJINC to adjust to constant dollars) 
+bbbbbb .N/A (less than 15 years old) 
+0 .None 
+4..999999 .$4 to $999999 (Rounded and top-coded)
+
+SCHG 
+Grade level attending 
+bb .N/A (not attending school) 
+01 .Nursery school/preschool 
+02 .Kindergarten 
+03 .Grade 1 
+04 .Grade 2 
+05 .Grade 3 
+06 .Grade 4 
+07 .Grade 5 
+08 .Grade 6 
+09 .Grade 7 
+10 .Grade 8 
+11 .Grade 9 
+12 .Grade 10 
+13 .Grade 11 
+14 .Grade 12 
+15 .College undergraduate years (freshman to senior) 
+16 .Graduate or professional school beyond a bachelor's degree
+
+SCHL 
+Educational attainment 
+bb .N/A (less than 3 years old) 
+01 .No schooling completed
+02 .Nursery school, preschool 
+03 .Kindergarten 
+04 .Grade 1 
+05 .Grade 2 
+06 .Grade 3 
+07 .Grade 4 
+08 .Grade 5 
+09 .Grade 6 
+10 .Grade 7 
+11 .Grade 8 
+12 .Grade 9 
+13 .Grade 10 
+14 .Grade 11 
+15 .12th grade - no diploma 
+16 .Regular high school diploma 
+17 .GED or alternative credential 
+18 .Some college, but less than 1 year 
+19 .1 or more years of college credit, no degree 
+20 .Associate's degree 
+21 .Bachelor's degree 
+22 .Master's degree 
+23 .Professional degree beyond a bachelor's degree 24 .Doctorate degree 
+
+SEMP 
+Self-employment income past 12 months (signed, use ADJINC to adjust SEMP to constant dollars) 
+bbbbbb .N/A (less than 15 years old) 
+0 .None 
+-10000..-4 .Loss of $4 to $10000 (Rounded and bottom-coded) 
+4..999999 .$4 to $999999 (Rounded and top-coded
+
+SSIP 
+Supplementary Security Income past 12 months (use ADJINC to adjust SSIP to constant dollars) 
+bbbbb .N/A (less than 15 years old) 
+0 .None 
+4..30000 .$4 to $30000 (Rounded and top-coded)
+
+WKL 
+When last worked 
+b .N/A (less than 16 years old) 
+1 .Within the past 12 months 
+2 .1-5 years ago 
+3 .Over 5 years ago or never worked
+
+WKW 
+Weeks worked during past 12 months 
+b .N/A (less than 16 years old/did not work during the past 12 .months) 
+1 .50 to 52 weeks worked during past 12 months 
+2 .48 to 49 weeks worked during past 12 months 
+3 .40 to 47 weeks worked during past 12 months 
+4 .27 to 39 weeks worked during past 12 months 
+5 .14 to 26 weeks worked during past 12 months 
+6 .less than 14 weeks worked during past 12 months
+
+WRK 
+Worked last week 
+b .N/A (not reported) 
+1 .Worked 
+2 .Did not work
+
+YOEP 
+Year of entry 
+bbbb .Not eligible - Born in the US 
+1929 .1929 or earlier (Bottom-coded) 
+1930 .1930 - 1934 
+1935 .1935 - 1938 
+1939 .1939 - 1940 
+1941 .1941 - 1942 …
+……………………
+2015 .2015 
+2016 .2016 
+2017 .2017 
+2018 .2018
+
+DRIVESP
+Number of vehicles calculated from JWRI 
+b .N/A (Nonworker or worker who does not drive to work) 
+1 .1.000 vehicles (Drove alone) 
+2 .0.500 vehicles (In a 2-person carpool) 
+3 .0.333 vehicles (In a 3-person carpool) 
+4 .0.250 vehicles (In a 4-person carpool) 
+5 .0.200 vehicles (In a 5- or 6-person carpool) 
+6 .0.143 vehicles (In a 7-or-more person carpool)
+
+ESR 
+Employment status recode 
+b .N/A (less than 16 years old) 
+1 .Civilian employed, at work 
+2 .Civilian employed, with a job but not at work 
+3 .Unemployed 
+4 .Armed forces, at work 
+5 .Armed forces, with a job but not at work 6 .Not in labor force
+
+NAICSP 
+North American Industry Classification System (NAICS) recode for 2018 and later based on 2017 NAICS codes 
+bbbbbbbb .N/A (less than 16 years old/NILF who last worked more .than 5 years ago or never worked) 
+111 .AGR-Crop Production 
+112 .AGR-Animal Production And Aquaculture 
+1133 .AGR-Logging 
+113M .AGR-Forestry Except Logging 
+114 .AGR-Fishing, Hunting, And Trapping 
+115 .AGR-Support Activities For Agriculture And Forestry 
+211 .EXT-Oil And Gas Extraction 
+2121 .EXT-Coal Mining 
+2122 .EXT-Metal Ore Mining 
+2123 .EXT-Nonmetallic Mineral Mining And Quarrying 
+213 .EXT-Support Activities For Mining 
+2211P .UTL-Electric Power Generation, Transmission And .Distribution
+……………
+928110P7 .MIL-Military Reserves Or National Guard 
+928P .ADM-National Security And International Affairs 
+92M1 .ADM-Administration Of Environmental Quality And Housing .Programs 
+92M2 .ADM-Administration Of Economic Programs And Space .Research 
+92MP .ADM-Justice, Public Order, And Safety Activities 
+999920 .Unemployed And Last Worked 5 Years Ago Or Earlier Or .Never Worked
+
+POBP 
+Place of birth (Recode)
+	001 .Alabama/AL 
+002 .Alaska/AK 
+004 .Arizona/AZ 
+005 .Arkansas/AR 
+006 .California/CA 
+008 .Colorado/CO 
+009 .Connecticut/CT
+……….
+
+POWSP
+Place of work - State or foreign country recode 
+bbb .N/A (not a worker--not in the labor force, including persons .under 16 years; unemployed; employed, with a job not at .work; Armed Forces, with a job but not at work) 
+001 .Alabama/AL 
+002 .Alaska/AK 
+004 .Arizona/AZ 
+005 .Arkansas/AR
+…….
+
+SCIENGRLP 
+Field of Degree Science and Engineering Related Flag - NSF Definition 
+b .N/A (less than bachelor's degree) 
+1 .Yes 
+2 .No
+
+JWAP 
+Time of arrival at work - hour and minute 
+bbb .N/A (not a worker; worker who worked at home) 
+001 .12:00 a.m. to 12:04 a.m. 
+002 .12:05 a.m. to 12:09 a.m. 
+003 .12:10 a.m. to 12:14 a.m. 
+004 .12:15 a.m. to 12:19 a.m. 
+005 .12:20 a.m. to 12:24 a.m. 
+006 .12:25 a.m. to 12:29 a.m. 
+007 .12:30 a.m. to 12:39 a.m. 
+008 .12:40 a.m. to 12:44 a.m. 
+009 .12:45 a.m. to 12:49 a.m. 
+010 .12:50 a.m. to 12:59 a.m. 
+………
+
+JWDP 
+Time of departure for work - hour and minute 
+bbb .N/A (not a worker; worker who worked at home) 
+001 .12:00 a.m. to 12:29 a.m. 
+002 .12:30 a.m. to 12:59 a.m. 
+003 .1:00 a.m. to 1:29 a.m. 
+004 .1:30 a.m. to 1:59 a.m. 
+005 .2:00 a.m. to 2:29 a.m. 
+006 .2:30 a.m. to 2:59 a.m. 
+007 .3:00 a.m. to 3:09 a.m. 
+008 .3:10 a.m. to 3:19 a.m. 
+009 .3:20 a.m. to 3:29 a.m. 
+010 .3:30 a.m. to 3:39 a.m.
+…….
+
+<<<<<<< HEAD
+PWGTP 
+Person's weight 
+1..9999 .Integer weight of person
+=======
+>>>>>>> c356b2816d1d8947c597e9a3ae983baefc9a17e0
+
+CITWP 
+Year of naturalization write-in 
+bbbb .Not eligible - not naturalized 
+1939 .1939 or earlier (Bottom-coded) 
+1940 .1940 - 1944 
+1945 .1945 - 1947 
+1948 .1948 - 1949 
+1950 .1950 
+1951 .1951 
+1952 .1952 
+1953 .1953 
+1954 .1954
+……
+
+COW 
+Class of worker 
+b .N/A (less than 16 years old/NILF who last worked more than 5 .years ago or never worked) 
+1 .Employee of a private for-profit company or business, or of an .individual, for wages, salary, or commissions 
+2 .Employee of a private not-for-profit, tax-exempt, or .charitable organization 
+3 .Local government employee (city, county, etc.) 
+4 .State government employee 
+5 .Federal government employee 
+6 .Self-employed in own not incorporated business, professional .practice, or farm 
+7 .Self-employed in own incorporated business, professional .practice or farm 
+8 .Working without pay in family business or farm 
+9 .Unemployed and last worked 5 years ago or earlier or never .worked 
+
+DDRS 
+Self-care difficulty 
+b .N/A (Less than 5 years old) 
+1 .Yes 
+2 .No
+
+DEAR 
+Hearing difficulty 
+1 .Yes
+ 2 .No
+
+DPHY 
+Ambulatory difficulty
+b .N/A (Less than 5 years old) 
+1 .Yes 
+2 .No 
+
+DREM 
+Cognitive difficulty 
+b .N/A (Less than 5 years old) 
+1 .Yes 
+2 .No 
+
+ENG 
+Ability to speak English 
+b .N/A (less than 5 years old/speaks only English) 
+1 .Very well 
+2 .Well 
+3 .Not well 
+4 .Not at all
+
+JWMNP 
+Travel time to work 
+bbb .N/A (not a worker or worker who worked at home) 
+1..200 .1 to 200 minutes to get to work (Top-coded) 
+
+JWRIP 
+Vehicle occupancy 
+bb .N/A (not a worker or worker whose means of transportation to .work was not car, truck, or van) 
+1 .Drove alone 
+2 .In 2-person carpool 
+3 .In 3-person carpool 
+4 .In 4-person carpool 
+5 .In 5-person carpool 
+6 .In 6-person carpool 
+7 .In 7-person carpool 
+8 .In 8-person carpool 
+9 .In 9-person carpool 
+10 .In 10-person or more carpool (Top-coded)
+
+JWTR 
+Means of transportation to work 
+bb .N/A (not a worker--not in the labor force, including persons .under 16 years; unemployed; employed, with a job but not at .work; Armed Forces, with a job but not at work) 
+01 .Car, truck, or van 
+02 .Bus or trolley bus 
+03 .Streetcar or trolley car (carro publico in Puerto Rico) 
+04 .Subway or elevated 
+05 .Railroad 
+06 .Ferryboat 
+07 .Taxicab 
+08 .Motorcycle 
+09 .Bicycle 
+10 .Walked 
+11 .Worked at home 
+12 .Other method 
+
+MARHD 
+Divorced in the past 12 months 
+b .N/A (age less than 15 years; never married) 
+1 .Yes 
+2 .No 
+8 .Suppressed for data year 2018 for select PUMAs
+
+MARHM 
+Married in the past 12 months 
+b .N/A (age less than 15 years; never married) 
+1 .Yes 
+2 .No
+
+MARHT 
+Number of times married 
+b .N/A (age less than 15 years; never married) 
+1 .One time 
+2 .Two times 
+3 .Three or more times
+
+MIG 
+Mobility status (lived here 1 year ago) 
+b .N/A (less than 1 year old) 
+1 .Yes, same house (nonmovers) 
+2 .No, outside US and Puerto Rico 
+3 .No, different house in US or Puerto Rico
+
+NWLK 
+Looking for work (UNEDITED - See "Employment Status Recode" (ESR)) 
+b .N/A (less than 16 years old/at work/temporarily .absent/informed of recall) 
+1 .Yes 
+2 .No 
+3 .Did not report
+
+PAP 
+Public assistance income past 12 months (use ADJINC to adjust to constant dollars) 
+bbbbb .N/A (less than 15 years old) 
+0 .None 
+4..30000 .$4 to $30000 (Rounded and top-coded)
+
+RELP 
+Relationship 
+00 .Reference person 
+01 .Husband/wife 
+02 .Biological son or daughter
+03 .Adopted son or daughter 
+04 .Stepson or stepdaughter 
+05 .Brother or sister 
+06 .Father or mother 
+07 .Grandchild 
+08 .Parent-in-law 
+09 .Son-in-law or daughter-in-law 
+10 .Other relative 
+11 .Roomer or boarder 
+12 .Housemate or roommate 
+13 .Unmarried partner 
+14 .Foster child 
+15 .Other nonrelative 
+16 .Institutionalized group quarters population 
+17 .Noninstitutionalized group quarters population
+
+SCH 
+School enrollment 
+b .N/A (less than 3 years old) 
+1 .No, has not attended in the last 3 months 
+2 .Yes, public school or public college 
+3 .Yes, private school or college or home school
+
+SSP 
+Social Security income past 12 months (use ADJINC to adjust SSP to constant dollars) 
+bbbbb .N/A (less than 15 years old) 
+0 .None 
+4..50000 .$4 to $50000 (Rounded and top-coded)
+
+WAGP 
+Wages or salary income past 12 months (use ADJINC to adjust WAGP to constant dollars) 
+bbbbbb .N/A (less than 15 years old) 
+0 .None 
+4..999999 .$4 to 999999 (Rounded and top-coded)
+
+WKHP 
+Usual hours worked per week past 12 months 
+bb .N/A (less than 16 years old/did not work during the past .12 months) 
+1..98 .1 to 98 usual hours 
+99 .99 or more usual hours 
+
+DECADE 
+Decade of entry 
+b .N/A (Born in the US) 
+1 .Before 1950 
+2 .1950 - 1959 
+3 .1960 - 1969 
+4 .1970 - 1979 
+5 .1980 - 1989 
+6 .1990 - 1999 
+7 .2000 - 2009 
+8 .2010 or later
+
+DIS 
+Disability recode 
+1 .With a disability 
+2 .Without a disability
+
+ESP 
+Employment status of parents 
+b .N/A (not own child of householder, and not child in subfamily) .Living with two parents: 
+1 .Both parents in labor force 
+2 .Father only in labor force 
+3 .Mother only in labor force 
+4 .Neither parent in labor force living with one parent: Living .with father: 
+5 .Father in the labor force 
+6 .Father not in labor force living with mother: 
+7 .Mother in the labor force 
+8 .Mother not in labor force 
+
+HISP 
+Recoded detailed Hispanic origin 
+01 .Not Spanish/Hispanic/Latino 
+02 .Mexican 
+03 .Puerto Rican 
+04 .Cuban 
+05 .Dominican 
+06 .Costa Rican 
+07 .Guatemalan 
+08 .Honduran 
+09 .Nicaraguan 
+10 .Panamanian 
+11 .Salvadoran 
+12 .Other Central American 
+13 .Argentinean 
+14 .Bolivian 
+15 .Chilean 
+16 .Colombian 
+17 .Ecuadorian 
+18 .Paraguayan 
+19 .Peruvian 
+20 .Uruguayan 
+21 .Venezuelan 
+22 .Other South American 
+23 .Spaniard 
+24 .All Other Spanish/Hispanic/Latino
+
+INDP 
+Industry recode for 2018 and later based on 2017 IND codes 
+bbbb .N/A (less than 16 years old/NILF who last worked more than .5 years ago or never worked)
+ 0170 .AGR-Crop Production 
+0180 .AGR-Animal Production And Aquaculture 
+0190 .AGR-Forestry Except Logging 
+0270 .AGR-Logging 
+0280 .AGR-Fishing, Hunting And Trapping
+…….
+9690 .MIL-U.S. Navy 
+9770 .MIL-U.S. Marines 
+9780 .MIL-U.S. Coast Guard 
+9790 .MIL-U.S. Armed Forces, Branch Not Specified 
+9870 .MIL-Military Reserves Or National Guard 
+9920 .Unemployed And Last Worked 5 Years Ago Or Earlier Or Never .Worked 
+
+MSP 
+Married, spouse present/spouse absent 
+b .N/A (age less than 15 years) 
+1 .Now married, spouse present 
+2 .Now married, spouse absent 
+3 .Widowed 
+4 .Divorced 
+5 .Separated 
+6 .Never married
+
+NOP 
+Nativity of parent  
+b .N/A (greater than 17 years old/not an own child of .householder, and not child in subfamily) 
+1 .Living with two parents: Both parents NATIVE 
+2 .Living with two parents: Father only FOREIGN BORN 
+3 .Living with two parents: Mother only FOREIGN BORN 
+4 .Living with two parents: BOTH parents FOREIGN BORN 
+5 .Living with father only: Father NATIVE 
+6 .Living with father only: Father FOREIGN BORN 
+7 .Living with mother only: Mother NATIVE 
+8 .Living with mother only: Mother FOREIGN BORN
+
+OC 
+Own child 
+b .N/A (in GQ) 
+0 .No 
+1 .Yes 
+
+OCCP 
+Occupation recode for 2018 and later based on 2018 OCC codes 
+bbbb .N/A (less than 16 years old/NILF who last worked more than .5 years ago or never worked) 
+0010 .MGR-Chief Executives And Legislators 
+0020 .MGR-General And Operations Managers 
+0040 .MGR-Advertising And Promotions Managers 
+0051 .MGR-Marketing Managers 
+0052 .MGR-Sales Managers 
+0060 .MGR-Public Relations And Fundraising Managers 
+0101 .MGR-Administrative Services Managers 
+0102 .MGR-Facilities Managers 
+0110 .MGR-Computer And Information Systems Managers 
+0120 .MGR-Financial Managers 
+0135 .MGR-Compensation And Benefits Managers 
+0136 .MGR-Human Resources Managers 
+…………
+9645 .TRN-Stockers And Order Fillers 
+9650 .TRN-Pumping Station Operators
+9720 .TRN-Refuse And Recyclable Material Collectors 
+9760 .TRN-Other Material Moving Workers 
+9800 .MIL-Military Officer Special And Tactical Operations .Leaders 
+9810 .MIL-First-Line Enlisted Military Supervisors 
+9825 .MIL-Military Enlisted Tactical Operations And Air/Weapons .Specialists And Crew Members 
+9830 .MIL-Military, Rank Not Specified 
+9920 .Unemployed And Last Worked 5 Years Ago Or Earlier Or Never .Worked
+
+PERNP 
+Total person's earnings (use ADJINC to adjust to constant dollars) 
+bbbbbbb .N/A (less than 16 years old) 
+0 .No earnings 
+-10000 .Loss of $10000 or more (Rounded & bottom-coded .components) 
+-9999..-1 .Loss $1 to $9999 (Rounded components) 
+1..1999998 .$1 to $1999998 (Rounded & top-coded components) 
+
+PINCP 
+Total person's income (signed, use ADJINC to adjust to constant dollars) 
+bbbbbbb .N/A (less than 15 years old) 
+0 .None 
+-19998 .Loss of $19998 or more (Rounded & bottom-coded .components)
+ -19997..-1 .Loss $1 to $19997 (Rounded components) 
+1..4209995 .$1 to $4209995 (Rounded & top-coded components)
+
+QTRBIR 
+Quarter of birth 
+1 .January through March 
+2 .April through June 
+3 .July through September 
+4 .October through December
+
+RACWHT 
+White recode (White alone or in combination with one or more other races) 
+0 .No 
+1 .Yes
+
+RC 
+Related child 
+b .N/A (in GQ) 
+0 .No 
+1 .Yes
+
+SCIENGP 
+Field of Degree Science and Engineering Flag - NSF Definition 
+b .N/A (less than bachelor's degree) 
+1 .Yes 
+2 .No
+
+VPS 
+Veteran period of service 
+bb .N/A (less than 17 years old, no active duty) 
+01 .Gulf War: 9/2001 or later 
+02 .Gulf War: 9/2001 or later and Gulf War: 8/1990 - 8/2001 
+03 .Gulf War: 9/2001 or later and Gulf War: 8/1990 - 8/2001 and .Vietnam Era 
+04 .Gulf War: 8/1990 - 8/2001 
+05 .Gulf War: 8/1990 - 8/2001 and Vietnam Era 
+06 .Vietnam Era 
+07 .Vietnam Era and Korean War 
+08 .Vietnam Era, Korean War, and WWII
+09 .Korean War 
+10 .Korean War and WWII 
+11 .WWII 
+12 .Between Gulf War and Vietnam Era only 
+13 .Between Vietnam Era and Korean War only 
+14 .Between Korean War and World War II only 
+15 .Pre-WWII only
+
+WAOB 
+World area of birth 
+1 .US state (POBP = 001-059) 
+2 .PR and US Island Areas (POBP = 061-099) 
+3 .Latin America (POBP = 303,310-399) 
+4 .Asia (POBP = 158-159,161,200-299) 
+5 .Europe (POBP = 100-157,160,162-199) 
+6 .Africa (POBP = 400-499) 
+7 .Northern America (POBP = 300-302,304-309) 
+8 .Oceania and at Sea (POBP = 060,500-554)
+
+NP 
+Number of persons in this household 
+0 .Vacant unit 
+1 .One person in household or any person in group quarters 
+2..20 .Number of persons in household
+
+TYPE 
+Type of unit 
+1 .Housing unit 
+2 .Institutional group quarters 
+3 .Noninstitutional group quarters 
+
+FINCP 
+Family income (past 12 months, use ADJINC to adjust FINCP to constant dollars) 
+bbbbbbb .N/A(GQ/vacant) 
+0 .No family income 
+-59999 .Loss of -$59,999 or more 
+-59998..-1 .Loss of $1 to -$59,998 
+1..9999999 .Total family income in dollars (Components are .rounded) 
+
+HINCP 
+Household income (past 12 months, use ADJINC to adjust HINCP to constant dollars) 
+bbbbbbb .N/A(GQ/vacant) 
+0 .No household income 
+-59999 .Loss of -$59,999 or more 
+-59998..-1 .Loss of $1 to -$59,998 
+1..9999999 .Total household income in dollars (Components .are rounded) 
