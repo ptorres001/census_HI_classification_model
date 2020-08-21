@@ -36,8 +36,8 @@ For this project, we aim to analyze the sampled New York State population in ord
 
 
 # Data
-Before we dive deeper into the questions, here are some information on our data. 
-1. The data is focused on New York State in 2018.
+Before we dive deeper into the questions, here is some information on our data. 
+1. The data is focused on New York State and Alabama in 2018.
 2. The data here was compiled and then uploaded to Kaggle.
     - You can find the dataset [here](https://www.kaggle.com/dataset/c2718fecee72695dff45f4dee01de58deeb17a54a6f334075ac983144be49f63). 
     - The data dictionary can be found [here](https://www2.census.gov/programs-surveys/acs/tech_docs/pums/data_dict/PUMS_Data_Dictionary_2018.pdf?#).
@@ -79,7 +79,7 @@ The third being type of personal relationship.
 
 ### Modeling
 
-We chose to use Precision as the metric to judge our model by. This came from the thinking that a false positive would be the worst case scenario for our model. Predicting that someone had insurance when they did not meant losing out on a large part of our audience. Precision was the formula that was sensitive to that. 
+We chose to use Precision as our target metric. This came from the thinking that a false positive would be the worst case scenario for our model. Predicting that someone had insurance when they did not meant losing out on a large part of our audience. A false negative would mean our model is not a efficient but that was not as bad an option. Precision was the formula that was sensitive to that. 
 
 We ran several models, including a dummy classifier, Logistic Regression, Random Forest Classifier, and a Light Gradient Boosting Machine. 
 
