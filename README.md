@@ -98,7 +98,7 @@ Taking a look at the confusion matrix, we can see that it misclassified some peo
 
 The advantage to picking a model like Logistic Regression is that it can highly interpretable. Using this model allows us access to the coefficients that the model used in order to fit the data. 
 
-![LogReg Coefficients](PNG/LogReg_Coef_plot.png)
+![LogReg Coefficients](PNG/new_coef_albert.png)
 
 ### Alabama Data
 
