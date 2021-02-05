@@ -49,10 +49,12 @@ Now we will briefly discuss what our dataset contains.
 	
 ![Insured vs Uninsured](PNG/ins_vs_not.png)
 
-2. Distribution of Age Count Over Target Variable.
+2. Distribution of Age Count Over Target Variable.  
+
 ![Age Distribution by Count](PNG/nys_age_dist_count.png)
 
-3. Distribution of Age Percentage Over the Target Variable.
+3. Distribution of Age Percentage Over the Target Variable.  
+
 ![Age Distribution by Percentage](PNG/nys_age_dist_percent.png)
 
 
