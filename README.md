@@ -1,19 +1,21 @@
 # New York State Health Insurance Model
-### Mod 3 Project by Paul Torres and Albert Um
+### Project by Paul Torres and Albert Um
 
-This repository contains data collection, cleaning and analyses of census survey information for 2018. We were singularly focused on New York State. We downloaded and curated data from the Census Bureau -- and included housing and persons records.
+This repository contains the data collection, cleaning, and analyses of American Community Survey (ACS) information from 2018. We were initially focused on New York State with the hopes of eventually applying the model to the rest of the country. The data was donwloaded from the Census Bureau — and included housing and persons records.
 
 
-# Project
+# Overview
 
-For this project, we aim to analyze the sampled New York State population in order to identify key characteristics in order to predict whether a person was covered by health insurance. We started off with a large number of features to base our predictions on, which we then whittled down using various statistics tests and feature selection. We then used the model to see if it could generalize against unseen data from other states.
+For this project, we aim to analyze the sampled New York State population in order to identify key community characteristics in order to predict whether or not a person was covered by health insurance. We started off with a large number of features to base our predictions on, which we then whittled down using various statistics tests and feature selection. We then used the model to see if it could generalize against unseen data from other states.
 
 # Structure of Repository
-- PNG -- contains images created during EDA and those linked in README
-- Data_Cleaning.ipynb -- contains all processes that went into pipeline cleaning and statistical tests
-- Model_Evaluation.ipynb -- contains code that ran all of the models for NYS data
-- Alabama_Test.ipynb -- contains case where NYS model predicts onto Alabama data
-- Final_Columns.txt -- contains a working dictionary for the columns that ended up in the final dataframe
+- Experimental Notebook (Folder) — notebooks for techniques not included in README
+- PNG (Folder) — contains images created during EDA and those linked in README
+- Data_Cleaning.ipynb — contains all processes that went into pipeline cleaning and statistical tests
+- Model_Evaluation.ipynb — contains code that ran all of the models for NYS data
+- Alabama_Test.ipynb — contains case where NYS model predicts onto Alabama data
+- Final_Columns.txt — contains a working dictionary for the columns that ended up in the final dataframe
+- 001-Covariate_Analysis.ipynb — notebook that contains information about covariate shift
 - README.md
 
 
@@ -38,7 +40,7 @@ For this project, we aim to analyze the sampled New York State population in ord
 # Data
 Before we dive deeper into the questions, here is some information on our data. 
 1. The data is focused on New York State and Alabama in 2018.
-2. The data here was compiled and then uploaded to Kaggle.
+2. The data was compiled and then uploaded to Kaggle.
     - You can find the dataset [here](https://www.kaggle.com/dataset/c2718fecee72695dff45f4dee01de58deeb17a54a6f334075ac983144be49f63). 
     - The data dictionary can be found [here](https://www2.census.gov/programs-surveys/acs/tech_docs/pums/data_dict/PUMS_Data_Dictionary_2018.pdf?#).
 3. All other features were engineered. 
@@ -59,7 +61,7 @@ Now we will briefly discuss what our dataset contains.
 
 
 # Process
-With targeting underserved communitieis and total participation in mind, we explored data and strived to help our stakeholders as below. 
+Targeting underserved communities and total participation was the primary goal, we explored data and strived to help our stakeholders as below. 
 
 ## Understanding the profile of a person that is more likely to not have health insurance.
 
@@ -81,11 +83,13 @@ The third being type of personal relationship.
 
 ### Modeling
 
-We chose to use Precision as our target metric. This came from the thinking that a false positive would be the worst case scenario for our model. Predicting that someone had insurance when they did not meant losing out on a large part of our audience. A false negative would mean our model is not a efficient but that was not as bad an option. Precision was the formula that was sensitive to that. 
+We chose to use Precision as our target metric. The logic being that a false positive would be the worst case scenario for our model. Predicting that someone had insurance when they did not meant losing out on a large part of our audience. A false negative would mean our model was not a efficient but would still serve its primary purpose. Precision was the formula that was sensitive to that because it punished false positives more harshly.
 
 We ran several models, including a dummy classifier, Logistic Regression, Random Forest Classifier, and a Light Gradient Boosting Machine. 
 
-The outcomes were similar but the Logistic Regression performed the best in terms of Precision. 
+The Dummy Classifier was used to show what would happen if the model just chose the pre-determined (in this case, the majority class of having health insurance). It showed us that the data set was heavily in favor of those with health insurance and any gain we could achieve from our models would have to be able to predict the minority class. 
+
+For the predictive models, the outcomes were very similar but the Logistic Regression edged the rest of them out in terms of its Precision score. We included the F1 score as an overall meter of where the models lay but its balanced approach to scoring was less important because a false negative was not a dealbreaker. 
 
 ![Model Metrics](PNG/metrics_outcomes.png)
 
@@ -113,16 +117,18 @@ Comparing the Confusion Matrix to that of NYS, we see that it had a harder time 
 ![Alabama Confusion](PNG/Albama_LogReg_Confusion_Matrix.png)
 
 # Conclusion
-Our model, using our desired metrics, was fit to our data very well. It ran with a high precision score and allowed for high levels of interpretation. 
+Our model, using our desired metrics, was fit to our data very well. It ran with a high precision score and allowed for high levels of interpretation. However, we would like to decrease the dimensions using a technique like Principal Component Analysis. 
 
 # Further Steps
 
 We would like to run further tests on datasets that contain the same information as the Census data but for very different populations and places with different policies than New York. 
 
+In the future, deep learning techniques like MLP will be used in order to determine 
+
 # Recommendations
 1. The health insurance industry would be better served by a model that took a holistic look at the target audience
 2. Use this modeling information to target areas where demographics that fit these features are clustered
-3. Fitting models to similar states bins, in terms of policies, would serve to bring a level of precision that could achieve maximum efficiency
+3. Fitting models to similar states in bins, in terms of policies, would serve to bring a level of precision that could achieve maximum efficiency. 
 
 
 
