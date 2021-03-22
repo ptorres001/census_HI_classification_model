@@ -91,8 +91,12 @@ The Dummy Classifier was used to show what would happen if the model just chose 
 
 For the predictive models, the outcomes were very similar but the Logistic Regression edged the rest of them out in terms of its Precision score. We included the F1 score as an overall meter of where the models lay but its balanced approach to scoring was less important because a false negative was not a dealbreaker. 
 
-![Model Metrics](PNG/metrics_outcomes.png)
-
+|Model|Precision Score|F-1 Score|
+|---|---|---|
+|Dummy Classifier| 0.951| 0.975|
+|Random Forest Classifier| 0.969| 0.949|
+|Light Gradient Boosting Machine| 0.970|0.948|
+|Logistic Regression| 0.983|0.856|
 
 ### Logistic Regression Performance
 
