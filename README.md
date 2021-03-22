@@ -127,7 +127,7 @@ Our model, using our desired metrics, was fit to our data very well. It ran with
 
 We would like to run further tests on datasets that contain the same information as the Census data but for very different populations and places with different policies than New York. 
 
-In the future, deep learning techniques like MLP will be used in order to determine 
+In the future, deep learning techniques like MLP will be used to see if a higher Precision score can be reached.
 
 # Recommendations
 1. The health insurance industry would be better served by a model that took a holistic look at the target audience
